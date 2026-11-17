@@ -1,48 +1,46 @@
 # Estudos de Python
 
-Repositório dedicado aos meus estudos de **Python**, com exercícios e pequenos programas desenvolvidos durante minha jornada de aprendizado em programação.
+Repositório dedicado aos meus estudos de **Python**, com exercícios e projetos desenvolvidos durante minha jornada de aprendizado em programação.
 
-O objetivo é registrar minha evolução, praticar lógica de programação e construir uma base para projetos mais completos.
-
-## Conteúdo atual
-
-### Programas diversos
-
-| Programa | Descrição | Conceitos praticados |
-|---|---|---|
-| [Calculadora.py](<Programas Diversos/Calculadora.py>) | Calculadora de terminal com operações básicas | Variáveis, entrada de dados, condicionais, laços de repetição e operações matemáticas |
-
-## Como executar
-
-É necessário ter o Python 3 instalado.
-
-No terminal, na pasta raiz do repositório, execute:
-
-```bash
-python "Programas Diversos/Calculadora.py"
-```
-
-Em alguns ambientes, o comando pode ser:
-
-```bash
-python3 "Programas Diversos/Calculadora.py"
-```
+O objetivo é praticar lógica de programação, registrar minha evolução e aplicar gradualmente os conceitos estudados.
 
 ## Organização
 
 ```text
 estudos-python/
-├── Programas Diversos/
-│   └── Calculadora.py
+├── curso-em-video/
+│   ├── mundo-1/
+│   ├── mundo-2/
+│   └── mundo-3/
+├── exercicios/
+├── projetos/
+│   └── calculadora/
 └── README.md
 ```
 
-## Próximos passos
+## Curso em Vídeo
 
-- [ ] Praticar estruturas condicionais e de repetição.
-- [ ] Desenvolver exercícios com listas e funções.
-- [ ] Melhorar a calculadora com validação de entradas e tratamento de divisão por zero.
-- [ ] Criar pequenos projetos para aplicar os conceitos estudados.
+Exercícios realizados durante o curso de Python do professor Gustavo Guanabara, organizados por mundo.
+
+A pasta de cada mundo será preenchida conforme o avanço nas aulas.
+
+## Projetos
+
+Programas desenvolvidos para aplicar os conhecimentos estudados.
+
+| Projeto | Descrição |
+|---|---|
+| [Calculadora em Python](projetos/calculadora/) | Calculadora de terminal com operações básicas, validação de entradas e tratamento de divisão por zero |
+
+## Como executar a calculadora
+
+É necessário ter o Python 3 instalado. Na raiz do repositório, execute:
+
+```bash
+python projetos/calculadora/Calculadora.py
+```
+
+Em alguns ambientes, use `python3` no lugar de `python`.
 
 ## Tecnologias
 
